@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>These are all our crappy posts</title>
+  </head>
+  <body>
+    <h1>Most of our bloggers are literally dogs</h1>
+      <% @posts.each do |post| %>
+      <h2><%= post.name %>:</h2>
+      <h3><%= post.content %></h3>
+      <% end %>
+  </body>
+</html>
